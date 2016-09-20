@@ -1,0 +1,25 @@
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: right;
+
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #7F5E44;
+	background-color: #F2D9C2;
+	padding: 4px;
+}
+
+nav li a:hover {
+	border-bottom: 2px solid 7F5E44;
+
+}
