@@ -92,6 +92,21 @@ body {
      height: 32px;
 }
 
+#stores{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+
+.storeInfo {
+    margin: 20px;
+    border: 2px solid #70523a;
+    border-radius: 10px;
+    
+}
+
 #internalLink {
     color: #473525;
 }
@@ -150,6 +165,10 @@ body {
     padding-top: 20px;
     padding-bottom: 60px;
     font-size: 12px;
+}
+
+#productText {
+    padding-bottom: 200px;
 }
 
 p {
