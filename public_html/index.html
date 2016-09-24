@@ -1,23 +1,29 @@
-<!-- Christopher -->
+﻿<!-- Christopher -->
 
 <!DOCTYPE html>
 
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/master.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
 
-  <title>Shoe Store - Homepage</title>
+    <title>Shoe Store - Homepage</title>
+    <style>
+        #landingImage {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    </style>
 
 </head>
 
 <body>
 
-  <div>
-    <p id="title">The Shoe Store <img src= "img/content/shoe_store_logo.png" alt="Logo" /></p>
-    
-  </div>
+    <header><a href="index.html">The Shoe Store</a></header>
+  
 
   <nav>
     <ul>
@@ -30,13 +36,50 @@
         <li><a href="signup.html">Sign Up</a></li>
     </ul>
   </nav>
-  <br />    
+  
+    <div>
+        <img id="landingImage" src="img/content/multiple_shoes.png" alt="Multiple Shoes" />
+        <p id="landingTitle">From boots to tennis shoes, find your style and your price at <em>The Shoe Store</em></p>
+        <p class="centerText" id="landingTitle">View our products <a id="internalLink" href="products.html">here</a></p>
+    </div>   
+    
+    <div id="loginSection">
+        <p id="landingTitle">
+            Want to view our online store? <a id="internalLink" href="login.html">Login</a> or <a id="internalLink" href="signup.html">Signup</a>
+        </p>
+    </div> 
+
+    <div id="locationSection">
+        <img id="shoeBag" src="img/content/bag_of_shoes.png" alt="Bag of Shoes" />
+        <p id="landingTitle">
+            Take Home the Latest Styles Today! <a id="internalLink" href="locations.html">View Our Locations</a></a>
+        </p>
+    </div> 
 
   <footer> 
+      <div id="footerInfo">
+          <p>
+              Follow us
+          </p>
+          <ul class="socialMedia">
+              <li>
+                  <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
+              </li>
+              <li>
+                  <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
+              </li>
+              <li>
+                  <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
+              </li>
+          </ul>
+      </div>
     
-    <p>
-        © 2016 The Shoe Store Inc,. All Rights Reserved.
+    
+
+    <p id="footerCopyright">
+        © 2016 The Shoe Store Inc. All Rights Reserved.
     </p>
+      
 
   </footer>
 
