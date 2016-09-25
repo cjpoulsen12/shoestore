@@ -120,6 +120,12 @@ body {
     text-decoration: none;
 }
 
+#internalLink:active {
+    border: 2px solid #473525;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
 #footerInfo {
     padding-top: 2px;
     padding-bottom: 10px;
