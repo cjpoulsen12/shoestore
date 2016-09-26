@@ -11,58 +11,79 @@
 
 <body>
   
-  <div>
+    <div>
         <header><a href="index.html">The Shoe Store</a></header>
-    <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="location.html">Locations</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a class=active href="signup.html">Sign Up</a></li>
-    </ul>
-  </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a class=active href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
 
-  <h4>Signup</h4>
+        <p id="landingTitle">Sign up</p>
   
-</div>
+    </div>
 
-<div>
-  <br />
+    <div>
 
-  <p>Sign up for a account to recieve our weekly Emails describing upcoming sales and information from our news letter page.</p>
-  
 
   
-  <div>
-        Email:<br>
-        <input type="text" name="Email"><br>
-        First Name<br>
-        <input type="text" name="First Name">
-        <br>
-        Last Name<br>
-        <input type="text" name="Last Name">
-        <br>
-        Password<br>
-        <input type="password" name="Password">
-        <br>
-        Gender <br />
-        <input type="radio" name="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
+
+  
+        <div id="login">
+            <form>
+                <label>Email</label><br />
+                <input type="email" name="email" placeholder="Email"><br />
+                <label>First Name</label><br />
+                <input type="text" name="firstName" placeholder="First Name"><br />
+                <label>Last Name</label><br />
+                <input type="text" name="lastName" placeholder="Last Name"><br />
+                <label>Password</label><br />
+                <input type="password" name="password" placeholder="Password"><br><br>
+
+                <input type="submit" value="Sign up" id="button">
+            </form>
+        </div>
+    </div>
+
+    <div id="productText">
+        <p>Have an account? <a id="internalLink" href="login.html">Login here</a></p>
+    </div>
+
+    <div class="spacer">
+
+    </div>
+
+    <footer>
+        <div id="footerInfo">
+            <p>
+                Follow us
+            </p>
+            <ul class="socialMedia">
+                <li>
+                    <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
+                </li>
+                <li>
+                    <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
+                </li>
+                <li>
+                    <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
+                </li>
+            </ul>
+        </div>
 
 
 
-    <input type="submit" value="Sign Up">
-  </div>
+        <p id="footerCopyright">
+            © 2016 The Shoe Store Inc. All Rights Reserved.
+        </p>
 
 
-</div>
-  <footer>
-    <p>
-        © 2016 The Shoe Store Inc,. All Rights Reserved.
-    </p>
-  </footer>
+    </footer>
 </body>
 </html>

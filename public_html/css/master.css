@@ -3,6 +3,10 @@ body {
     margin: 0px;
 }
 
+form {
+    text-align: center;
+}
+
 header a{
     padding-left: 8px;
 	font-size: 60px;
@@ -17,9 +21,25 @@ header a:hover {
 
 h2 {
     text-align: left;
-    color: #473525;
-    font-family: Garamond, Helvetica, sans-serif;
+    color: #70523a;
+    font-family: Helvetica, arial, sans-serif;
     font-size: 30px;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 4px;
+    color: #473525;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+label {
+    color: #473525;
+    font-size: 20px;
+    font-family: helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -137,7 +157,7 @@ td img {
 }
 
 .spacer { 
-    margin: 140px;
+    margin: 300px;
 }
 
 .socialMedia {
@@ -164,6 +184,13 @@ td img {
 
 #aboutDescription {
     text-align: left;
+}
+
+#button {
+    margin: 4px;
+    border-radius: 2px;
+    color: #473525;
+    font-size: 20px;
 }
 
 #footerInfo {
@@ -220,6 +247,12 @@ td img {
     padding-bottom: 10px;
 }
 
+#login {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #loginSection {
     padding: 20px;
     background-color: #E8E8E8;
@@ -232,6 +265,10 @@ td img {
 
 #productText {
     padding-bottom: 200px;
+}
+
+#radio {
+    width: 20px;
 }
 
 #reminder {
