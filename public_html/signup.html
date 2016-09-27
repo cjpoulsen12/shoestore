@@ -1,4 +1,4 @@
-<!-- Christopher -->
+﻿<!-- Christopher -->
 
 <!DOCTYPE html>
 
@@ -11,55 +11,79 @@
 
 <body>
   
-  <div>
+    <div>
+        <header><a href="index.html">The Shoe Store</a></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a class=active href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <p id="landingTitle">Sign up</p>
+  
+    </div>
 
     <div>
-        <p id=title> The Shoe Store
-            <img src= "img/content/shoe_store_logo.png" alt="The Shoe Store Logo" />
-        </p>
-        
+
+
+  
+
+  
+        <div id="login">
+            <form>
+                <label>Email</label><br />
+                <input type="email" name="email" placeholder="Email"><br />
+                <label>First Name</label><br />
+                <input type="text" name="firstName" placeholder="First Name"><br />
+                <label>Last Name</label><br />
+                <input type="text" name="lastName" placeholder="Last Name"><br />
+                <label>Password</label><br />
+                <input type="password" name="password" placeholder="Password"><br><br>
+
+                <input type="submit" value="Sign up" id="button">
+            </form>
+        </div>
     </div>
-    <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="location.html">Location</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a class=active href="signup.html">Sign Up</a></li>
-    </ul>
-  </nav>
 
-  <h4>Signup</h4>
-  
-</div>
+    <div id="productText">
+        <p>Have an account? <a id="internalLink" href="login.html">Login here</a></p>
+    </div>
 
-<div>
-  <br />
+    <div class="spacer">
 
-  <p>Sign up for a account to recieve our weekly Emails describing upcoming sales and information from our news letter page.</p>
-  
-  <div>
-    <form>
-    <input type="radio" name="gender" value="male" checked> Male<br>
-    <input type="radio" name="gender" value="female"> Female<br>
-    </form>
-  </div>
-  
-  <div>
-    Email:<br>
-    <input type="text" name="Email"><br>
-    Phone Number:<br>
-    <input type="text" name="Phone Number">
-    <br>
-    <input type="submit" value="Sign Up">
-  </div>
-</div>
-  <footer>
-    <p>
-        © 2016 The Shoe Store Inc,. All Rights Reserved.
-    </p>
-  </footer>
+    </div>
+
+    <footer>
+        <div id="footerInfo">
+            <p>
+                Follow us
+            </p>
+            <ul class="socialMedia">
+                <li>
+                    <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
+                </li>
+                <li>
+                    <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
+                </li>
+                <li>
+                    <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
+                </li>
+            </ul>
+        </div>
+
+
+
+        <p id="footerCopyright">
+            © 2016 The Shoe Store Inc. All Rights Reserved.
+        </p>
+
+
+    </footer>
 </body>
 </html>

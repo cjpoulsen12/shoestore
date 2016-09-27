@@ -1,4 +1,4 @@
-<!-- Christopher -->
+﻿<!-- Christopher -->
 
 <!DOCTYPE html>
 
@@ -9,48 +9,70 @@
   <title>The Shoe Store - Login</title>
 </head>
     <body>
-    <div>
+        <div>
 
-    <div>
-        <p id=title> The Shoe Store
-            <img src= "img/content/shoe_store_logo.png" alt="The Shoe Store Logo" />
-        </p>
-        
-    </div>
-    <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="location.html">Location</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li class=active ><a href="login.html">Login</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-    </ul>
-  </nav>
+            <header><a href="index.html">The Shoe Store</a></header>
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class=active ><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+            </nav>
   
-  <p> Login to your Shoe Store Account </p>
+            <p id="landingTitle">Login to your account</p>
   
-</div>
+        </div>
 
 
- <div>
-    <form>
-      First name:<br>
-      <input type="text" name="firstname"><br>
-      Last name:<br>
-      <input type="text" name="lastname"><br><br>
-      <input type="submit" value="Login">
-    </form>
- </div> 
-<br />
+        <div id="login">
+            <form>
+                <label >Email</label><br/>
+                <input type="email" name="Email" placeholder="Email"><br/>
+                <label>Password</label><br />
+                <input type="password" name="password" placeholder="Password"><br><br>
+                <input type="submit" value="Sign in" id="button">
+            </form>
+        </div>
+
+        <div id="productText">
+            <p><a id="internalLink" href="signup.html">Create an account</a></p>
+        </div>
+
+        <div class="spacer">
+
+        </div>
+
+        <footer>
+            <div id="footerInfo">
+                <p>
+                    Follow us
+                </p>
+                <ul class="socialMedia">
+                    <li>
+                        <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
+                    </li>
+                    <li>
+                        <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
+                    </li>
+                    <li>
+                        <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
+                    </li>
+                </ul>
+            </div>
 
 
-<footer>
-  <p>
-        © 2016 The Shoe Store Inc,. All Rights Reserved.
-    </p>
-</footer>
+
+            <p id="footerCopyright">
+                © 2016 The Shoe Store Inc. All Rights Reserved.
+            </p>
+
+
+        </footer>
 
     </body>
 </html>

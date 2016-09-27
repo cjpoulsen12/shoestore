@@ -1,4 +1,4 @@
-<!--Christopher-->
+﻿<!--Christopher-->
 <!DOCTYPE html>
 
 <html lang="en">
@@ -12,17 +12,12 @@
 
 <div>
 
-    <div>
-        <p id=title> The Shoe Store
-            <img src= "img/content/shoe_store_logo.png" alt="The Shoe Store Logo" />
-        </p>
-        
-    </div>
+    <header><a href="index.html">The Shoe Store</a></header>
     <nav>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a class=active href="products.html">Products</a></li>
-        <li><a href="location.html">Location</a></li>
+        <li><a href="location.html">Locations</a></li>
         <li><a href="news.html">News</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="login.html">Login</a></li>
@@ -30,30 +25,31 @@
     </ul>
   </nav>
 
-  Our Products
+  <p id="landingTitle">Our Products</p>
   
 </div>
-<br />
 
 <table>
   <thead>
     <tr>
       <th> </th>
-      <th>Option 1</th>
-      <th>Option 2</th>
-      <th>Option 3</th>
+      <th>Red Flat Tennis</th>
+      <th>Blue Flat Tennis</th>
+      <th>Formal Tennis</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Color:</td>
-      <td>Red
+        <td>
+            Shoe
+        </td>
+      <td>
       <img src= "img/content/red_shoe.png" alt="Red Shoe" />
       </td>
-      <td>Blue
+      <td>
       <img src= "img/content/blue_shoe.png" alt="Blue Shoe" />
       </td>
-      <td>Black
+      <td>
       <img src= "img/content/shoe_store_logo.png" alt="Black Shoe" />
       </td>
     </tr>
@@ -66,16 +62,41 @@
       <td>$40</td>
     </tr>
   </tfoot>
-</table>
-<br />   
+</table>  
+
+    <div id="productText">
+        <p>Products are available at our <a id="internalLink" href="location.html">brick and mortar stores</a> or at our Amazon page.</p>
+        <p>All online purchases are liable for a free resizing as needed.*</p>
+        <p id="smallNote"><em>*Original shipping charges may be incurred on redelivery. This is based on your original shipping speed.</em></p>
+    </div>
     
   
-<footer>
-  
-  <p>
-        © 2016 The Shoe Store Inc,. All Rights Reserved.
-    </p>
-</footer>
+    <footer>
+        <div id="footerInfo">
+            <p>
+                Follow us
+            </p>
+            <ul class="socialMedia">
+                <li>
+                    <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
+                </li>
+                <li>
+                    <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
+                </li>
+                <li>
+                    <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
+                </li>
+            </ul>
+        </div>
+
+
+
+        <p id="footerCopyright">
+            © 2016 The Shoe Store Inc. All Rights Reserved.
+        </p>
+
+
+    </footer>
   
   
   
