@@ -6,16 +6,18 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/master.css">
+
 
     <title>Shoe Store - Homepage</title>
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <style>
-        #landingImage {
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-        }
     </style>
 
 </head>
@@ -23,63 +25,64 @@
 <body>
 
     <header><a href="index.html">The Shoe Store</a></header>
-  
 
-  <nav>
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="location.html">Locations</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-    </ul>
-  </nav>
-  
+
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+
     <div>
-        <img id="landingImage" src="img/content/multiple_shoes.png" alt="Multiple Shoes" />
-        <p id="landingTitle">From boots to tennis shoes, find your style and your price at <em>The Shoe Store</em></p>
-        <p class="centerText" id="landingTitle">View our products <a id="internalLink" href="products.html">here</a></p>
-    </div>   
-    
-    <div id="loginSection">
-        <p id="landingTitle">
-            Want to view our online store? <a id="internalLink" href="login.html">Login</a> or <a id="internalLink" href="signup.html">Signup</a>
+        <img src="img/content/multiple_shoes.png" alt="Multiple Shoes" />
+        <p >From boots to tennis shoes, find your style and your price at <em>The Shoe Store</em></p>
+        <p >View our products <a href="products.html">here</a></p>
+    </div>
+
+    <div>
+        <p>
+            Want to view our online store? <a href="login.html">Login</a> or <a href="signup.html">Signup</a>
         </p>
-    </div> 
+    </div>
 
-    <div id="locationSection">
-        <img id="shoeBag" src="img/content/bag_of_shoes.png" alt="Bag of Shoes" />
-        <p id="landingTitle">
-            Take Home the Latest Styles Today! <a id="internalLink" href="location.html">View Our Locations</a></a>
+    <div>
+        <img src="img/content/bag_of_shoes.png" alt="Bag of Shoes" />
+        <p>
+            Take Home the Latest Styles Today! <a href="location.html">View Our Locations</a>
         </p>
-    </div> 
+    </div>
 
-  <footer> 
-      <div id="footerInfo">
-          <p>
-              Follow us
-          </p>
-          <ul class="socialMedia">
-              <li>
-                  <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
-              </li>
-              <li>
-                  <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
-              </li>
-              <li>
-                  <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
-              </li>
-          </ul>
-      </div>
+    <footer>
+        <div>
+            <p>
+                Follow us
+            </p>
+            <ul>
+                <li>
+                    <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
+                </li>
+                <li>
+                    <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
+                </li>
+                <li>
+                    <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
+                </li>
+            </ul>
+        </div>
 
-    <p id="footerCopyright">
-        © 2016 The Shoe Store Inc. All Rights Reserved.
-    </p>
-      
-  </footer>
+        <p id="footerCopyright">
+            © 2016 The Shoe Store Inc. All Rights Reserved.
+        </p>
 
-
+    </footer>
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
