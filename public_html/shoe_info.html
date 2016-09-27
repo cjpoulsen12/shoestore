@@ -3,11 +3,25 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Shoe Info</title>
-</head>
+  <head> 
+    <meta charset="utf-8"> 
+    <title>Shoe Info</title> 
+ 
+    <!-- This says our CSS is compatible with phones, and phones 
+         don't need to scale it strangely. --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+    <!-- Main CSS styles for Bootstrap --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+ 
+    <!-- Optional theme add-on --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> 
+ 
+    <!-- Our custom stylesheet that WE write. We need this to not have our 
+         text appear under the nav bar. --> 
+    <link rel="stylesheet" href="custom.css"> 
+ 
+  </head>
 
 <body>
   
@@ -24,16 +38,37 @@
     Our shoes are built for maximum comfort and stability. Our breathable mesh, lightweight materials, and padded tongue make for a great in-shoe feel. Also, all products that go into the producing our shoes are made right here in America.
   </p>
   
-  <nav>
-    <ul>
-        <li><a href="hours_and_directions.html">Hours and Directions</a></li>
-        <li><a href="news_page.html">News Page</a></li>
-        <li><a href="shoe_info.html">Shoe Information</a></li>
-        <li><a href="shoe_options.html">Shoe Options</a></li>
-        <li><a href="login_page.html">Login</a></li>
-        <li><a href="sign_up_placeholder_page.html">Sign Up</a></li>
-    </ul>
-  </nav>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+
+              <!-- Three line "hamburger" icon for the collapsed navigation -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- Title on nav bar -->
+            <a class="navbar-brand" href="#">The Shoe Store</a>
+          </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li ><a href="store_info.html">Store Info</a></li>
+              <li><a href="news.html">News</a></li>
+              <li class="active"><a href="shoe_info.html">Shoe Info</a></li>
+              <li><a href="shoe_options.html">Shoe Options</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="sign_up.html">Sign Up</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
   <footer> 
     &copy; 2016 The Shoe Store Inc., All Rights Reserved.
