@@ -4,8 +4,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/master.css">
   <title>The Shoe Store - Products</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 </head>
 
 <body>
@@ -16,7 +22,7 @@
     <nav>
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a class=active href="products.html">Products</a></li>
+        <li><a href="products.html">Products</a></li>
         <li><a href="location.html">Locations</a></li>
         <li><a href="news.html">News</a></li>
         <li><a href="about.html">About Us</a></li>
@@ -25,7 +31,7 @@
     </ul>
   </nav>
 
-  <p id="landingTitle">Our Products</p>
+  <p>Our Products</p>
   
 </div>
 
@@ -64,19 +70,19 @@
   </tfoot>
 </table>  
 
-    <div id="productText">
-        <p>Products are available at our <a id="internalLink" href="location.html">brick and mortar stores</a> or at our Amazon page.</p>
+    <div>
+        <p>Products are available at our <a href="location.html">brick and mortar stores</a> or at our Amazon page.</p>
         <p>All online purchases are liable for a free resizing as needed.*</p>
-        <p id="smallNote"><em>*Original shipping charges may be incurred on redelivery. This is based on your original shipping speed.</em></p>
+        <p><em>*Original shipping charges may be incurred on redelivery. This is based on your original shipping speed.</em></p>
     </div>
     
   
     <footer>
-        <div id="footerInfo">
+        <div>
             <p>
                 Follow us
             </p>
-            <ul class="socialMedia">
+            <ul>
                 <li>
                     <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
                 </li>
@@ -91,7 +97,7 @@
 
 
 
-        <p id="footerCopyright">
+        <p>
             © 2016 The Shoe Store Inc. All Rights Reserved.
         </p>
 
@@ -99,6 +105,8 @@
     </footer>
   
   
-  
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
