@@ -1,0 +1,83 @@
+body {
+	background-color: #E9F1DF;
+	max-width: 1500px;
+}
+
+h1 {
+	background-color: #F2385A;
+	text-align: center;
+	font-family: serif;
+	font-size: 70px; 
+
+	border: 10px;
+	border-style: solid;
+	border-radius: 20px;
+
+	margin: 10px;
+	padding: 2px;
+}
+
+h2 {
+	background-color: #F2385A;
+	text-align: center;
+	font-family: serif;
+	font-size: 40px;
+	font-style: italic;
+
+	border: 5px;
+	border-style: solid;
+	border-radius: 20px;
+
+	margin: 5px;
+	padding: 2px;
+}
+
+footer {
+	text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+    background-color: #F5A503;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111111;   
+}
+
+table, th, td {
+	border: 3px solid black;
+}
+
+#in_store_sale {
+	font-style: italic;
+}
+
+.address {
+	text-align: center;
+	font-style: bold;
+}
+
+.table_odd_row {
+	background-color: gray;
+}
+
+.table_even_row {
+	background-color: #E9F1DF;
+}
