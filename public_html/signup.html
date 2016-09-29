@@ -35,24 +35,29 @@
   
     </div>
 
-    <div>
-
-
-  
-
-  
-        <div>
+    <div class="row">
+        <div class="container col-lg-4 col-lg-offset-4">
             <form>
-                <label>Email</label><br />
-                <input type="email" name="email" placeholder="Email"><br />
-                <label>First Name</label><br />
-                <input type="text" name="firstName" placeholder="First Name"><br />
-                <label>Last Name</label><br />
-                <input type="text" name="lastName" placeholder="Last Name"><br />
-                <label>Password</label><br />
-                <input type="password" name="password" placeholder="Password"><br><br>
 
-                <input type="submit" value="Sign up">
+                <div class="form-group">
+                    <label class="text-left">First Name:</label><br />
+                    <input type="text" class="form-control input-lg" name="firstName" placeholder="Enter First Name"><br />
+                </div>
+                <div class="form-group">
+                    <label>Last Name:</label><br />
+                    <input type="text" class="form-control input-lg" name="lastName" placeholder="Enter Last Name"><br />
+                </div>
+
+                <div class="form-group">
+                    <label>Email address:</label><br />
+                    <input type="email" class="form-control input-lg" name="email" placeholder="Enter email address"><br />
+                </div>
+                <div class="form-group">
+                    <label>Password:</label><br />
+                    <input type="password" class="form-control input-lg" name="password" placeholder="Create a Password"><br><br>
+                </div>
+
+                <input class="btn btn-primary" type="submit" value="Sign up">
             </form>
         </div>
     </div>
