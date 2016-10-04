@@ -5,7 +5,7 @@
 <html lang="en">
   <head> 
     <meta charset="utf-8"> 
-    <title>The Shoe Store</title> 
+    <title>News - The Shoe Store</title> 
  
     <!-- This says our CSS is compatible with phones, and phones 
          don't need to scale it strangely. --> 
@@ -19,75 +19,114 @@
  
     <!-- Our custom stylesheet that WE write. We need this to not have our 
          text appear under the nav bar. --> 
-    <link rel="stylesheet" href="custom.css"> 
+    <link rel="stylesheet" href="css/custom.css"> 
  
   </head>
 
   <body>
-  
+
     <header>
-      <h1>
-          The Shoe Store
-          <img src="img/shoe_store_logo.png" alt="Shoe Store Logo" style="width: 100px;"/>
-      </h1>
-    </header>
 
-    <h2><em>STORE NEWS</em></h2>
-    <p>
-      This weekend, the first 30 people into the store will receive 15% off any shoe purchase!
-      <br />
-      Friday 9:00 AM to 5:00 PM
-      <br />
-      Saturday 9:00 to 9:00 PM
-    </p>   
-  
-    <h2><em>Online Offers</em></h2>
-    <p>
-     For the last two weeks in September: Starting on Monday the 19th, any online orders over $100 will receive free shipping and 10% off!
-    </p>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
 
-    <!-- Added -->
-    <p>Coming in December: Any orders placed between the 13th-23rd will receive guaranteed shipping by Christmas!</p>
+              <!-- Three line "hamburger" icon for the collapsed navigation -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-    <!-- Added -->
-    <h2>Charity of the Month</h2>
-    <p>This month's 10% contribution charity is Papa Bill's Dimes. We're not sure if it's a real charity either, but Bill (who may or may not work our front desk) has convinced us to give him our money. Bill says he no longer owns a home location for donations, but he is happy to accept any payments at our store location betwen the hours of 12:30- 8 AM. Cash is preferred.</p>
-    
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
+            <!-- Title on nav bar -->
+            <a class="navbar-brand" href="#">The Shoe Store</a>
+          </div>
 
-            <!-- Three line "hamburger" icon for the collapsed navigation -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <!-- Title on nav bar -->
-          <a class="navbar-brand" href="#">The Shoe Store</a>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store_info.html">Store Info</a></li>
+              <li class="active"><a href="news.html">News</a></li>
+              <li><a href="shoe_info.html">Shoe Info</a></li>
+              <li><a href="shoe_options.html">Shoe Options</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="sign_up.html">Sign Up</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="store_info.html">Store Info</a></li>
-            <li class="active"><a href="news.html">News</a></li>
-            <li><a href="shoe_info.html">Shoe Info</a></li>
-            <li><a href="shoe_options.html">Shoe Options</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="sign_up.html">Sign Up</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
+      <div class="jumbotron">
+        <div class="container page-header">
+            <h1>News
+            <br />
+            <small>What's Happening Over Here</small></h1> 
         </div>
       </div>
-    </nav>
 
-    <footer> 
-      &copy; 2016 The Shoe Store Inc., All Rights Reserved.
-    </footer>
+    </header> 
+
+    <div class="container border">
+      <div class="row">
+        <div class="col-xs-6 border">
+          <h2>Store News</h2>
+        </div>
+        <div class="col-xs-6 border">
+          <h2>Online Offers</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          This weekend, the first 30 people into the store will receive 15% off any shoe purchase!
+          <br />
+          Friday 9:00 AM to 5:00 PM
+          <br />
+          Saturday 9:00 to 9:00 PM 
+        </div>
+        <div class="col-xs-6">
+          For the last two weeks in September: Starting on Monday the 19th, any online orders over $100 will receive free shipping and 10% off!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+        </div>
+        <div class="col-xs-6">
+          Coming in December: 
+          Any orders placed between the 13th-23rd will receive guaranteed shipping by Christmas!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="border">Charity of the Month</h2>
+          This month's 10% contribution charity is Papa Bill's Dimes. We're not sure if it's a real charity either, but Bill (who may or may not work our front desk) has convinced us to give him our money. Bill says he no longer owns a home location for donations, but he is happy to accept any payments at our store location betwen the hours of 12:30- 8 AM. Cash is preferred. Click here to donate! (We'll make sure the money gets where it's supposed to go.)
+          <br />
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+              <div class="input-group">
+                <div class="input-group-addon">$</div>
+                <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                <div class="input-group-addon">.00</div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Donate</button>
+          </form>
+          <div class="alert alert-danger">
+            <strong>Warning!</strong> Just a heads up, you're definitely not getting your money back after you click that button.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+      <footer> 
+        &copy; 2016 The Shoe Store Inc., All Rights Reserved.
+      </footer>
   
   </body>
 

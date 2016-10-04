@@ -9,7 +9,27 @@ h2 {
 footer {
 	text-align: center;
 	background-color: #777;
+	border: 40px;
+	border-style: solid;
+	border-color: #E6E9F8;
 }
+
+body {
+	background-color: #D4D5E7;
+}
+
+.border {
+	border-style: solid;
+}
+
+.row {
+	background-color: #B6CAE2;
+}
+
 .center-text {
+	text-align: center;
+}
+
+#main-page-title {
 	text-align: center;
 }
