@@ -1,12 +1,11 @@
+<!--Nathan-->
 
-<!--Nathan--> 
+<!DOCTYPE html>
 
-<!DOCTYPE html> 
 <html lang="en">
- 
-  <head>
+  <head> 
     <meta charset="utf-8"> 
-    <title>The Shoe Store</title> 
+    <title>Store Info - The Shoe Store</title> 
  
     <!-- This says our CSS is compatible with phones, and phones 
          don't need to scale it strangely. --> 
@@ -24,58 +23,9 @@
  
   </head>
 
-<<<<<<< HEAD
-<head>
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-  <meta charset="utf-8">
-
-  <title>The Shoe Store</title>
-  <style>
-    p {
-        text-align: center;
-        font-size: 30px;
-        font-style: italic;
-    }
-  </style>
-  
-</head>
-
-<body> 
-
-  <header>
-    <h1>
-        The Shoe Store
-        <img src="img/shoe_store_logo.png" alt="Shoe Store Logo" style="width: 100px;"/>
-    </h1>
-  </header>
-  
-  <!--Added-->
-  <h2 style="text-align: center; font-size: 40px;">Welcome to the Shoe Store!</h2>
-  <!--Added-->
-  <p>Feel free to browse our site for any shoe needs you might have.</p>
-
-  <nav>
-    <ul>
-        <li><a href="index.html">Home Page</a></li>
-        <li><a href="hours_and_directions.html">Hours and Directions</a></li>
-        <li><a href="news_page.html">News Page</a></li>
-        <li><a href="shoe_info.html">Shoe Information</a></li>
-        <li><a href="shoe_options.html">Shoe Options</a></li>
-        <li><a href="login_page.html">Login</a></li>
-        <li><a href="sign_up_placeholder_page.html">Sign Up</a></li>
-    </ul>
-  </nav>
-
-  <footer> 
-    <!--Added the Copywright symbol on all footers-->
-    &copy; 2016 The Shoe Store Inc., All Rights Reserved.
-  </footer>
-
-</body>
-=======
   <body>
 
-  	<header>
+    <header>
 
       <!-- Navigation Bar -->
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -96,8 +46,8 @@
 
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="store_info.html">Store Info</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="store_info.html">Store Info</a></li>
               <li><a href="news.html">News</a></li>
               <li><a href="shoe_info.html">Shoe Info</a></li>
               <li><a href="shoe_options.html">Shoe Options</a></li>
@@ -109,30 +59,42 @@
         </div>
       </nav>
 
-	  	<div class="jumbotron">
-	  		<div class="container">
-	  			<h1 id="main-page-title">The Shoe Store</h1>
-	  		</div>
-	  	</div>
-
-	  </header>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2>Welcome to The Shoe Store!</h2>
+      <div class="jumbotron">
+        <div class="container page-header">
+            <h1>Store Information
+            <br />
+            <small> Hours and Directions</small></h1> 
         </div>
       </div>
+
+    </header> 
+
+  <div class="container border">
+    <div class="row border">
+      <div class="col-md-4"><h2>Store Hours</h2></div>
+      <div class="col-md-4"><h2>Store Address</h2></div>
+      <div class="col-md-4"><h2>Warehouse Shipping Address</h2></div>
     </div>
-    
-    <!-- Scripts required to make Bootstrap work better. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div class="row">
+      <div class="col-md-4 center-text">
+        Monday - Friday: 9:00 AM to 5:00 PM
+        <br />
+        Saturday: 9:00 AM to 9:00 PM
+        <br />
+        Sunday: Closed
+      </div>
+      <div class="col-md-4 center-text">701 C Street Indianola, IA 50125</div>
+      <div class="col-md-4 center-text" >
+        P. Sherman
+        <br />
+        42 Wallaby Way, Sydney
+      </div>
+    </div>
+  </div>
 
     <footer> 
       &copy; 2016 The Shoe Store Inc., All Rights Reserved.
     </footer>
 
   </body>
->>>>>>> 0292800cb730bc61db9d05be9036565f6379db54
 </html>

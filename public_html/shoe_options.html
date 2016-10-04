@@ -3,22 +3,44 @@
 <!DOCTYPE html>
 
 <html lang="en">
+<<<<<<< HEAD
 <head>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   <meta charset="utf-8">
+=======
+  <head> 
+    <meta charset="utf-8"> 
+    <title>Shoe Options - The Shoe Store</title> 
+ 
+    <!-- This says our CSS is compatible with phones, and phones 
+         don't need to scale it strangely. --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+    <!-- Main CSS styles for Bootstrap --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+ 
+    <!-- Optional theme add-on --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> 
+ 
+    <!-- Our custom stylesheet that WE write. We need this to not have our 
+         text appear under the nav bar. --> 
+    <link rel="stylesheet" href="css/custom.css"> 
+ 
+  </head>
+>>>>>>> 0292800cb730bc61db9d05be9036565f6379db54
 
-  <title>Shoe Options</title>
-</head>
+  <body>
 
-<body>
+    <header>
 
-  <header>
-    <h1>
-        The Shoe Store
-        <img src="img/shoe_store_logo.png" alt="Shoe Store Logo" style="width: 100px;"/>
-    </h1>
-  </header>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
 
+<<<<<<< HEAD
 <table>
   <thead>
     <tr class="table_even_row">
@@ -63,12 +85,88 @@
         <li><a href="sign_up_placeholder_page.html">Sign Up</a></li>
     </ul>
   </nav>
+=======
+              <!-- Three line "hamburger" icon for the collapsed navigation -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- Title on nav bar -->
+            <a class="navbar-brand" href="#">The Shoe Store</a>
+          </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store_info.html">Store Info</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="shoe_info.html">Shoe Info</a></li>
+              <li class="active"><a href="shoe_options.html">Shoe Options</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="sign_up.html">Sign Up</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <div class="container page-header">
+            <h1>Shoe Options
+            <br />
+            <small>What Style Fits You?</small></h1> 
+        </div>
+      </div>
+
+    </header> 
+
+    <div class="container border">
+      <div class="row">
+        <div class="col-sm-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th> </th>
+                <th>Option 1</th>
+                <th>Option 2</th>
+                <th>Option 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Color:</td>
+                <td>Red <img src= "img/Red_Shoe.png" alt="Red Shoe" /></td>
+                <td>Blue <img src= "img/Blue_Shoe.png" alt="Blue Shoe" /></td>
+                <td>Black <img src= "img/shoe_store_logo.png" alt="Black Shoe" /></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Price: </td>
+                <td>$45</td>
+                <td>$45</td>
+                <td>$40</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Here at the Shoe Store, we pride ourselves on simplicity. That's why we make our greatest quality shoe the same way, every time, without fail. Life is full of difficult decisions. Your shoes shouldn't be one of them.</p>
+
+          <p>Choose from above which option you want, and send us a letter at our <a href="store_info.html">store address</a>. We will send you a confirmation letter within five business days of reception.</p>
+        </div>
+      </div>
+    </div>
+>>>>>>> 0292800cb730bc61db9d05be9036565f6379db54
   
-  <footer> 
-    &copy; 2016 The Shoe Store Inc., All Rights Reserved.
-  </footer>
+    <footer> 
+      &copy; 2016 The Shoe Store Inc., All Rights Reserved.
+    </footer>
   
   
   
-</body>
+  </body>
 </html>

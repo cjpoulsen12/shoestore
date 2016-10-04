@@ -1,0 +1,126 @@
+<!--Nathan-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head> 
+    <meta charset="utf-8"> 
+    <title>Sign Up - The Shoe Store</title> 
+ 
+    <!-- This says our CSS is compatible with phones, and phones 
+         don't need to scale it strangely. --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+    <!-- Main CSS styles for Bootstrap --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+ 
+    <!-- Optional theme add-on --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> 
+ 
+    <!-- Our custom stylesheet that WE write. We need this to not have our 
+         text appear under the nav bar. --> 
+    <link rel="stylesheet" href="css/custom.css"> 
+ 
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+
+              <!-- Three line "hamburger" icon for the collapsed navigation -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- Title on nav bar -->
+            <a class="navbar-brand" href="#">The Shoe Store</a>
+          </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store_info.html">Store Info</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="shoe_info.html">Shoe Info</a></li>
+              <li><a href="shoe_options.html">Shoe Options</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li class="active"><a href="sign_up.html">Sign Up</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <div class="container page-header">
+            <h1>Sign Up
+            <br />
+            <small>Go Ahead, It's Free!</small></h1> 
+        </div>
+      </div>
+
+    </header> 
+
+    <div class="container border">
+      <div class="row">
+        <div class="col-sm-12">
+          Sign up for an account to receive our weekly emails describing upcoming sales and information from our <a href="news_page.html">news letter</a> page.
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputUsername3" class="col-sm-2 control-label">Username</label>
+              <div class="col-sm-4">
+                <input type="username" class="form-control" id="inputUsername3" placeholder="Username">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+              <div class="col-sm-4">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> I have read the nonexistant Terms and Conditions</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign Up</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            Thank you for shopping at The Shoe Store!
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <footer> 
+      &copy; 2016 The Shoe Store Inc., All Rights Reserved.
+    </footer>
+  
+  </body>
+</html>
