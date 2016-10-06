@@ -33,9 +33,15 @@ body {
 }*/
 
 p {
-    text-align: center;
     color: #7F5E44;
     font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: #7F5E44;
+    font-size: 26px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -75,7 +81,6 @@ p {
 	border: 2px solid #70523a;
 	background-color: #f5ece9;
 	padding: 4px;
-	margin-right: 1px;
 	border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 0px;
@@ -89,21 +94,18 @@ p {
 }
 
 .customNav li a:active {
-	background-color: #473525;
 	color: #f5ece9;
-
+	background-color: #473525;
 }
 
-
-
-.active {
-	background-color: #70523a;
-	color: #f5ece9;
-	border-bottom-color: #70523a;
+.customActive {
+	background-color: #70523A !important;
+	color: #f5ece9 !important;
+	border-bottom-color: #70523a !important;
 }
 
 .spacer { 
-    margin: 300px;
+    margin: 25px;
 }
 
 /*.socialMedia {
