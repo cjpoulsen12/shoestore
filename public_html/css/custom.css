@@ -25,13 +25,6 @@ body {
     padding: 10px;
 }
 
-/*h2 {
-    text-align: left;
-    color: #70523a;
-    font-family: Helvetica, arial, sans-serif;
-    font-size: 30px;
-}*/
-
 p {
     color: #7F5E44;
     font-size: 18px;
@@ -45,6 +38,12 @@ h3 {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+h4 {
+    text-align: center;
+    color: #7F5E44;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .customNavContainer {
     border-bottom: 2px solid #70523a;
     margin-top: -80px;
@@ -53,7 +52,6 @@ h3 {
 .customNav {
     padding: 0px;
     margin-bottom: -8px;
-    padding-bottom: 7px;
 }
 
 .customNav ul {
@@ -69,7 +67,6 @@ h3 {
 .customNav li {
 	display: inline-block;
     background-color: #f5ece9;
-
 }
 
 .customNav li a {
@@ -78,9 +75,12 @@ h3 {
 	font-family: helvetica, arial, sans-serif;
 	font-size: 16px;
 	color: #7F5E44;
-	border: 2px solid #70523a;
+	/*border-top: 2px solid #70523a;
+    border-left: 2px solid #70523a;
+    border-right: 2px solid #70523a;*/
+    border: 2px solid #70523a;
 	background-color: #f5ece9;
-	padding: 4px;
+	padding: 6px 4px 3px 4px;
 	border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 0px;
@@ -106,6 +106,27 @@ h3 {
 
 .spacer { 
     margin: 25px;
+}
+
+.customLink {
+    color: #473525;
+}
+
+.customLink:hover {
+    background-color: #f5ece9;
+    text-decoration: none;
+    color: #473525;
+}
+
+.customLink:active {
+    color: #473525;
+    border: 2px solid #473525;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#customContainerColor {
+    background-color: #f0f0f0;
 }
 
 /*.socialMedia {
@@ -154,19 +175,3 @@ h3 {
     font-family: helvetica, arial, sans-serif;
 }*/
 
-.customLink {
-    color: #473525;
-}
-
-.customLink:hover {
-    background-color: #f5ece9;
-    text-decoration: none;
-    color: #473525;
-}
-
-.customLink:active {
-    color: #473525;
-    border: 2px solid #473525;
-    border-radius: 4px;
-    text-decoration: none;
-}
