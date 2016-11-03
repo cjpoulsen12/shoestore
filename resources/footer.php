@@ -7,13 +7,13 @@
                 </h4>
                 <ul class="list-unstyled list-inline">
                     <li>
-                        <img src="../public_html/img/content/facebook_icon.png" alt="Facebook Icon" />
+                        <img src="public_html/img/content/facebook_icon.png" alt="Facebook Icon" />
                     </li>
                     <li>
-                        <img src="../public_html/img/content/twitter_icon.png" alt="Twitter Icon" />
+                        <img src="public_html/img/content/twitter_icon.png" alt="Twitter Icon" />
                     </li>
                     <li>
-                        <img src="../public_html/img/content/amazon_icon.png" alt="Amazon Icon" />
+                        <img src="public_html/img/content/amazon_icon.png" alt="Amazon Icon" />
                     </li>
                 </ul>
 
