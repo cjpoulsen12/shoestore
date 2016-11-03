@@ -27,12 +27,6 @@
 
 <body>
 
-    <div class="container">
-        <div class="page-header">
-            <h1><a class="customHeader" href="index.html">The Shoe Store</a></h1>
-        </div> 
-    </div>
-
     <!--Navigation Bar-->
     <?php include '../resources/navigation.php'; ?>
 

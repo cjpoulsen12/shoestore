@@ -19,25 +19,8 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="page-header">
-            <h1><a class="customHeader" href="index.html">The Shoe Store</a></h1>
-        </div>
-    </div>
-
-    <div class="container customNavContainer">
-        <nav class="navbar navbar-right customNav">
-            <ul class="nav nav-pills ">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="location.html">Locations</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a class="customActive" href="about.html">About Us</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-            </ul>
-        </nav>
-    </div>
+    <!--Navigation Bar-->
+    <?php include '../resources/navigation.php'; ?>
 
 <div>
     <div class="container col-md-4">
@@ -88,32 +71,8 @@
     .footer{ position: absolute; bottom: 0; left: 0; right:0; text-align: center; } 
     </style>
     
-    <div class="footer">
-        <div class="container col-lg-4 col-lg-offset-4">
-            <footer>
-                <div>
-                    <h4>
-                        Follow us
-                    </h4>
-                    <ul class="list-unstyled list-inline">
-                        <li>
-                            <img src="img/content/facebook_icon.png" alt="Facebook Icon" />
-                        </li>
-                        <li>
-                            <img src="img/content/twitter_icon.png" alt="Twitter Icon" />
-                        </li>
-                        <li>
-                            <img src="img/content/amazon_icon.png" alt="Amazon Icon" />
-                        </li>
-                    </ul>
-
-                    <p>
-                        © 2016 The Shoe Store Inc. All Rights Reserved.
-                    </p>
-                </div>
-            </footer>
-        </div>
-    </div>
+    <!--Footer Bar-->
+    <?php include '../resources/footer.php'; ?>
 
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

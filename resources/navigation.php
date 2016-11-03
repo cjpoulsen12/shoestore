@@ -1,13 +1,19 @@
+<div class="container">
+        <div class="page-header">
+            <h1><a class="customHeader" href="index.php">The Shoe Store</a></h1>
+        </div> 
+    </div>
+
 <div class="container customNavContainer">
     <nav class="navbar navbar-right customNav">
         <ul class="nav nav-pills ">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="location.html">Locations</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="location.php">Locations</a></li>
+            <li><a href="news.php">News</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="signup.php">Sign Up</a></li>
         </ul>
     </nav>
 </div>
